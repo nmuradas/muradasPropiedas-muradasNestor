@@ -26,7 +26,7 @@ body {
 
 .logoheaderfooter img:hover {
     transform: scale(1.05);
-  }
+}
 
 .textosPrinc {
     font-size: 25px;
@@ -79,6 +79,19 @@ header div nav ul li a {
     background-color: rgb(14, 79, 219);
     color: white;
     border-radius: 10px;}
+
+.botonesNav {
+    transition: transform 1s;
+}
+
+.botonesNav:hover {
+    transform: scale(1.1);
+}
+
+.botonesNav a:hover {
+    background-color: lightblue;
+    color: black;
+}
 
 
 
