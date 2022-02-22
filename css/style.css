@@ -205,6 +205,7 @@ cointanerUbi_maps {
     display: grid;
     grid-area: 1 / 1 / 1 / 1;
     font-size: 20px;
+    line-height: 40px;
 }
 
 .serviciosImg {
@@ -222,8 +223,8 @@ cointanerUbi_maps {
     display: grid;
     grid-area: 1 / 1 / 1 / 1;
     align-items: center;
-    line-height: 30px;
-    font-size: 25px;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 .containterNosotrosimg {
@@ -280,9 +281,9 @@ margin-right: 10px;
         display: grid;
         grid-area: 1 / 1 / 1 / 1;
         align-items: center;
-        line-height: 35px;
+        line-height: 40px;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .containterNosotrosimg {
@@ -294,6 +295,10 @@ margin-right: 10px;
 
     .nosotrosImg {
         width: 600px;
+    }
+
+    .containerServiciostxt {
+        font-weight: bold;
     }
     
     .containerContacto {
