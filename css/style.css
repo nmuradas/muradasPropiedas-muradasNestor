@@ -16,6 +16,18 @@ body {
     min-height: 100vh;
 }
 
+.logoheaderfooter {
+    cursor: pointer;
+}
+
+.logoheaderfooter img {
+    transition: transform 0.5s;
+}
+
+.logoheaderfooter img:hover {
+    transform: scale(1.05);
+  }
+
 .textosPrinc {
     font-size: 25px;
 }
@@ -68,11 +80,13 @@ header div nav ul li a {
     color: white;
     border-radius: 10px;}
 
-    .containerBodyindex {
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        min-height: 100vh;
-    }
+
+
+.containerBodyindex {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
 
 .tablatop1 {
         background-color: green;
