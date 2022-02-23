@@ -24,12 +24,17 @@ body {
     transition: transform 0.5s;
 }
 
+.navHeader {
+    margin-right: 20px;
+}
+
 .logoheaderfooter img:hover {
     transform: scale(1.05);
 }
 
 .textosPrinc {
     font-size: 25px;
+    margin-right: 10px;
 }
 
 .imagenPrinc {
@@ -93,8 +98,6 @@ header div nav ul li a {
     color: black;
 }
 
-
-
 .containerBodyindex {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -126,9 +129,8 @@ footer div {
     flex-wrap: wrap;
 }
 
-footer div ul {
-    list-style-type: none;
-    display: flex;
+.rrssFooter {
+    margin-right: 20px;
 }
 
 .h3footer {
@@ -199,6 +201,7 @@ font-weight: bold;
 .containerServiciosimg {
     display: grid;
     grid-area: 1 / 2 / 1 / 2;
+    margin-right: 10px;
 }
 
 .containerServiciostxt {
