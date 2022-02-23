@@ -142,11 +142,14 @@ footer div {
 button[type='submit'] {
     font-weight: bold;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 button[type='reset'] {
     font-weight: bold;
-    cursor: pointer;}
+    cursor: pointer;
+    -webkit-appearance: none;
+}
 
 .tabla {
 color: black;
