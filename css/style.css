@@ -184,7 +184,7 @@ font-weight: bold;
     margin: 0 auto;
 }
 
-cointanerUbi_maps {
+.cointanerUbi_maps {
     display: grid;
     grid-area: 1 / 2 / 1 / 2;
     padding: 10px;
@@ -340,6 +340,7 @@ margin-right: 10px;
         grid-area: 2 / 1 / 2 / 1;
         padding: 10px;
         margin: 0 auto;
+        width: 600px;
     }
     
     .containerServicios {
@@ -395,6 +396,10 @@ margin-right: 10px;
     .imagenPrinc img {
         max-width: 500px;
     }
+
+    .cointanerUbi_maps {
+        width: 500px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -416,6 +421,10 @@ margin-right: 10px;
 
     .contactoImg {
         width: 400px;   
+    }
+
+    .cointanerUbi_maps {
+        width: 400px;
     }
 }
 
