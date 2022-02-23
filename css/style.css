@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    -webkit-appearance: none;}
 
 
 .title {
@@ -226,13 +227,13 @@ font-weight: bold;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    margin-left: 20px;
 }
 
 
 .containterNosotrostxt {
     display: grid;
-    grid-area: 1 / 1 / 1 / 1;
-   
+    grid-area: 1 / 1 / 1 / 1; 
     line-height: 40px;
     font-size: 20px;
 }
