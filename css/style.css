@@ -209,7 +209,7 @@ cointanerUbi_maps {
 }
 
 .serviciosImg {
-    width: 80%;
+    width: 100%;
 }
 
 .containterNosotros {
@@ -359,7 +359,7 @@ margin-right: 10px;
     }
     
     .serviciosImg {
-        width: 300px
+        width: 600px
     }
 
     .imagenPrinc img {
@@ -383,6 +383,14 @@ margin-right: 10px;
     .nosotrosImg {
         width: 500px;
     }
+    
+    .serviciosImg {
+        width: 500px
+    }
+
+    .contactoImg {
+        width: 500px;   
+    }
 
     .imagenPrinc img {
         max-width: 500px;
@@ -398,8 +406,16 @@ margin-right: 10px;
         width: 400px;
     }
 
+    .serviciosImg {
+        width: 400px
+    }
+
     .imagenPrinc img {
         max-width: 400px;
+    }
+
+    .contactoImg {
+        width: 400px;   
     }
 }
 
