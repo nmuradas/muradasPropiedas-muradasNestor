@@ -365,6 +365,7 @@ margin-right: 10px;
     .imagenPrinc img {
         width: 600px;
         height: 385px;
+        max-width: 600px;
     }
 
     .textosPrinc {
@@ -382,6 +383,10 @@ margin-right: 10px;
     .nosotrosImg {
         width: 500px;
     }
+
+    .imagenPrinc img {
+        max-width: 500px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -392,10 +397,18 @@ margin-right: 10px;
     .nosotrosImg {
         width: 400px;
     }
+
+    .imagenPrinc img {
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 375px) {
     body {
         font-size: 130%;
+    }
+
+    .imagenPrinc img {
+        max-width: 300px;
     }
 }
