@@ -187,8 +187,8 @@ font-weight: bold;
 .cointanerUbi_maps {
     display: grid;
     grid-area: 1 / 2 / 1 / 2;
-    padding: 10px;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 .containerServicios {
@@ -294,7 +294,7 @@ margin-right: 10px;
     }
 
     .nosotrosImg {
-        width: 600px;
+        width: 500px;
     }
 
     .containerServiciostxt {
@@ -317,7 +317,7 @@ margin-right: 10px;
     }
 
     .contactoImg {
-        width: 600px;   
+        width: 500px;   
     }
 
     .containerUbi {
@@ -340,7 +340,11 @@ margin-right: 10px;
         grid-area: 2 / 1 / 2 / 1;
         padding: 10px;
         margin: 0 auto;
-        width: 600px;
+        
+    }
+
+    .cointanerUbi_maps iframe {
+        width: 500px;
     }
     
     .containerServicios {
@@ -360,7 +364,7 @@ margin-right: 10px;
     }
     
     .serviciosImg {
-        width: 600px
+        width: 500px
     }
 
     .imagenPrinc img {
@@ -382,23 +386,23 @@ margin-right: 10px;
     }
 
     .nosotrosImg {
-        width: 500px;
+        width: 400px;
     }
     
     .serviciosImg {
-        width: 500px
+        width: 400px
     }
 
     .contactoImg {
-        width: 500px;   
+        width: 400px;   
     }
 
     .imagenPrinc img {
-        max-width: 500px;
+        max-width: 400px;
     }
 
-    .cointanerUbi_maps {
-        width: 500px;
+    .cointanerUbi_maps iframe {
+        width: 400px;
     }
 }
 
@@ -408,23 +412,23 @@ margin-right: 10px;
     }
 
     .nosotrosImg {
-        width: 400px;
+        width: 350px;
     }
 
     .serviciosImg {
-        width: 400px
+        width: 350px
     }
 
     .imagenPrinc img {
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .contactoImg {
-        width: 400px;   
+        width: 350px;   
     }
 
-    .cointanerUbi_maps {
-        width: 400px;
+    .cointanerUbi_maps iframe {
+        width: 350px;
     }
 }
 
