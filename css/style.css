@@ -368,9 +368,9 @@ margin-right: 10px;
     }
 
     .imagenPrinc img {
-        width: 600px;
+        width: 550px;
         height: 385px;
-        max-width: 600px;
+        max-width: 550px;
     }
 
     .textosPrinc {
@@ -398,7 +398,7 @@ margin-right: 10px;
     }
 
     .imagenPrinc img {
-        max-width: 400px;
+        max-width: 380px;
     }
 
     .cointanerUbi_maps iframe {
@@ -420,7 +420,7 @@ margin-right: 10px;
     }
 
     .imagenPrinc img {
-        max-width: 350px;
+        max-width: 340px;
     }
 
     .contactoImg {
