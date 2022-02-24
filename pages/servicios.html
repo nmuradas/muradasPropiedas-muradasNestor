@@ -4,72 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Muradas Propiedades</title>
 </head>
 <body>
     <header>
-        <div class="logoheaderfooter">
-            <a href="../index.html">
-                <img src="../assets/images/logomp.jpg" width="180" alt="LOGO">
-            </a>
-            <nav  class="navHeader">       
-                <ul>
-                    <li class="botonesNav"><a href="../index.html">Inicio</a></li>
-                    <li class="botonesNav"><a href="./sobrenosotros.html">Nosotros</a></li>
-                    <li class="botonesNav"><a href="./servicios.html">Servicios</a></li>
-                    <li class="botonesNav"><a href="./contacto.html">Contactenos</a></li>
-                    <li class="botonesNav"><a href="./ubicacion.html">Ubicación</a></li>
-                    <li class="botonesNav"><a href="https://www.properati.com.ar/tools/valuador-propiedades" target="_blank" rel="noopener noreferrer">Tasador</a> </li>
-                </ul>       
-            </nav>
-            <span class="menuHambur">🍔</span>
-        </div>
-    </header> 
-    <main>
-        <section class="containerServicios">
-            <div class="containerServiciosimg"><br>
-                <img class="serviciosImg" src="../assets/images/servicios.jpg"  alt="Servicios inmobiliarios">
-            </div>
-            <div class="containerServiciostxt">   
-                <div>
-                    <p> <br>Especialistas en el mercado inmobiliario, no dude en contactarnos por: </p>
-                    <ul class="listasinestilo">
-                        <li>Tasaciones</li>
-                        <li>Compra/venta/alquiler de propiedades</li>
-                        <li>Remates y Subastas</li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  m-0 p-0"">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/logomp.jpg" width="165" alt="LOGO"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/sobrenosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contactenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.properati.com.ar/tools/valuador-propiedades">Tasador</a>
+                        </li>
                     </ul>
                 </div>
-                <div>
-                    <p><br>¿Hace tiempo que necesita vender o comprar una propiedad?
+            </div>
+        </nav>
+    </header>  
+    <main>      
+        <section class="containter-fluid">
+            <div class="row mx-0">
+                <div class="col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div>
+                        <p> <br>Especialistas en el mercado inmobiliario, no dude en contactarnos por: </p>
+                        <ul>
+                            <li>Tasaciones</li>
+                            <li>Compra/venta/alquiler de propiedades</li>
+                            <li>Remates y Subastas</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p><br>¿Hace tiempo que necesita vender o comprar una propiedad?
                         <br>
                         Le dejamos los siguientes consejos:
-                    </p>
-                    <ol class="listasinestilo">
-                        <li>Tome coraje</li>
-                        <li>Contactese con nosotros</li>
-                        <li>Puede relajarse</li>
-                    </ol>
+                        </p>
+                        <ol>
+                            <li>Tome coraje</li>
+                            <li>Contactese con nosotros</li>
+                            <li>Puede relajarse</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 text-center my-3 mr-1">
+                    <img class="img-fluid" src="../assets/images/servicios.jpg"  alt="Servicios inmobiliarios">
                 </div>
             </div>
-        </section>
-    </main>
-    <br><br>  
-    <hr>
+        </section>      
+    </main> 
     <footer>
-        <div class="logoheaderfooter">      
-            <a href="../index.html">
-                <img src="../assets/images/logomp.jpg" width="180" alt="logo">
-            </a>
-        </div> 
-        <div>
-            <a href="mailto:muradaspropiedades@gmail.com?Subject=Contacto Web" class="h3footer"><h3> Muradaspropiedades@gmail.com</h3></a>
+        <div class="container-fluid bg-dark">
+            <div class="row d-flex flex-row justify-content-between align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-4">    
+                    <a href="../index.html">
+                        <img class="my-1" src="../assets/images/logomp.jpg" width="165" alt="logo">
+                    </a>
+                </div> 
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <a href="mailto:muradaspropiedades@gmail.com?Subject=Contacto Web" class="text-white text-decoration-none text-center "><h5 class="h5"> Muradaspropiedades@gmail.com</h5></a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 text-end footResponsiverrss">
+                    <a href="https://www.instagram.com/mdnraices/"><img src="../assets/images/instagram.png" width="50px" alt="instagram"></a>
+                    <a href="https://wa.me/541156229690" class="whatsappmargin"><img src="../assets/images/whatsapp.png" width="50px" alt="whatsapp"></a>
+                    <a href="https://www.facebook.com/nmuradas"><img src="../assets/images/facebook.png" width="55px" alt="facebook" ></a>  
+                </div>  
+            </div>
         </div>
-        <div class="rrssFooter">
-            <a href="https://www.instagram.com/mdnraices/"><img src="../assets/images/instagram.png" width="50px" alt="instagram"></a>
-            <a href="https://wa.me/541156229690" class="whatsappmargin"><img src="../assets/images/whatsapp.png" width="50px" alt="whatsapp"></a>
-            <a href="https://www.facebook.com/nmuradas"><img src="../assets/images/facebook.png" width="55px" alt="facebook" ></a>  
-        </div>         
     </footer>
 </body>
 </html>
