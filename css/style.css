@@ -10,6 +10,16 @@ body {
     margin-left: 8px;
 }
 
+.logoheaderfooter img {
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+
+.logoheaderfooter img:hover {
+    transform: scale(1.05);
+}
+
 @media (max-width: 992px) {
     footer {
         display: flex;
