@@ -4,7 +4,7 @@
   "description": "**Muradas Propiedades**",
   "main": "index.js",
   "scripts": {
-    "dev": "sass style.scss css/style.min.css -w --no-source-map -s compressed"
+    "dev": "sass scss/style.scss css/style.min.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",
