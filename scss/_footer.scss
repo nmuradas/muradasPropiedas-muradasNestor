@@ -1,14 +1,10 @@
 footer {
-    .logoheaderfooter img {
-        cursor: pointer;
-        transition: transform 0.5s;
-    
-    &:hover {
-        transform: scale(1.05);
-    }
-}
+        .logoheaderfooter img {
+            @extend .headerFooter
+    }  
+
     .whatsappmargin {
-        margin-left: 8px;
+        @include waLogo(7px)
     }
     
 }
@@ -26,7 +22,7 @@ footer {
     }
 
     .whatsappmargin {
-        margin-left: 9px;
+        @include waLogo(9px)
     }
 }
 }
